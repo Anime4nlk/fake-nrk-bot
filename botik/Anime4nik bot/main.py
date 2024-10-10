@@ -13,7 +13,7 @@ dp = Dispatcher(bot)
 
 @dp.message_handler(text=['/start'])
 async def send_welcome(message: types.Message):
-    await message.answer( f"🔸Добро пожаловать {message.from_user.username}! \n 🔸Создатель бота - SCAR3CROW",
+    await message.answer( f"🔸Добро пожаловать {message.from_user.username}! \n 🔸Создатель бота - Anime4nik",
                           reply_markup=keyboards.keyboard1 )
 
 
